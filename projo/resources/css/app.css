@@ -1,0 +1,29 @@
+body{
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+p{
+  line-height: 1.6px;
+}
+article + article{
+  margin-top: 3rem;
+  padding-top: 3rem;
+  border-top: 1px solid #c5c5c5;
+}
+input{
+  margin-top: 3rem;
+  line-height: 1.6;
+}
+.pass{
+  margin-bottom: 3rem;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
